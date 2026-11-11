@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const HOST = 'prompt-engineering-lab.pages.dev';
+const HOST = 'prompt-engineering-lab.pageaura.xyz';
 const KEY = '0298ce5a3d9b4780b50aa3b664ae3532';
-const KEY_LOCATION = `https://prompt-engineering-lab.pages.dev/0298ce5a3d9b4780b50aa3b664ae3532`;
+const KEY_LOCATION = `https://prompt-engineering-lab.pageaura.xyz/0298ce5a3d9b4780b50aa3b664ae3532`;
 
 const urlsFile = path.join(__dirname, 'urls.txt');
 let urlList = [];
