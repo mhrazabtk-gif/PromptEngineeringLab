@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const DOMAIN = 'https://prompt-engineering-lab.pages.dev';
+const DOMAIN = 'https://prompt-engineering-lab.pageaura.xyz';
 const KEY = '0298ce5a3d9b4780b50aa3b664ae3532';
 
 const ROOT = __dirname;
@@ -45,7 +45,7 @@ for (const value of rawUrls) {
   }
 
   if (
-    url.hostname.toLowerCase() !== 'prompt-engineering-lab.pages.dev' ||
+    url.hostname.toLowerCase() !== 'prompt-engineering-lab.pageaura.xyz' ||
     !['http:', 'https:'].includes(url.protocol) ||
     url.username ||
     url.password
